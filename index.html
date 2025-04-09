@@ -1,0 +1,198 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio El chicano</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to bottom, #e8f5f9, #ffffff);
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            font-size: 1.5em;
+            font-weight: bold;
+            letter-spacing: 1px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .welcome {
+            font-size: 1.2em;
+            margin: 30px auto 10px;
+            animation: fadeIn 2s ease-in-out;
+            color: #34495e;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h1 {
+            font-size: 2.8em;
+            color: #2c3e50;
+        }
+        p.intro {
+            font-size: 1.2em;
+            max-width: 750px;
+            margin: auto;
+            line-height: 1.8;
+            text-align: justify;
+        }
+        .section {
+            margin-top: 40px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .skill {
+            background-color: #1abc9c;
+            color: white;
+            padding: 10px 18px;
+            font-size: 0.95em;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            font-weight: bold;
+        }
+        .contact-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 15px;
+            color: white;
+            padding: 20px 40px;
+            margin: 20px auto;
+            font-size: 1.2em;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        .whatsapp {
+            background-color: #25D366;
+        }
+        .email {
+            background-color: #3498db;
+        }
+        .clarification {
+            max-width: 750px;
+            margin: 40px auto;
+            font-style: italic;
+            font-size: 1.1em;
+            background: #fff3cd;
+            color: #856404;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #ffeeba;
+        }
+        .comments {
+            margin: 50px auto;
+            max-width: 600px;
+        }
+        .comments h3 {
+            color: #2c3e50;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 1em;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #1abc9c;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        footer {
+            margin-top: 60px;
+            color: #777;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>El chicano | Web Developer</header>
+
+    <p class="welcome">Bienvenue sur mon portfolio professionnel</p>
+
+    <h1>Bonjour, je me prénomme El chicano</h1>
+    <p class="intro">
+        Développeur web passionné, je consacre mon énergie et ma créativité à la conception d’expériences numériques modernes, performantes et esthétiques.  
+        Convaincu que chaque ligne de code est une opportunité de valoriser un projet, je m’engage à créer des sites internet sur mesure, alliant ergonomie, accessibilité et performance.
+        <br><br>
+        Mon parcours est guidé par une soif constante d’apprentissage et une fascination pour l’innovation.  
+        Ainsi, je m'intéresse particulièrement au développement des applications modernes, capables de répondre efficacement aux besoins actuels en matière de communication digitale.
+    </p>
+
+    <div class="section">
+        <h2>Mes compétences en développement web</h2>
+        <p class="intro">
+            Grâce à une veille technologique régulière et à une pratique continue, j’ai su développer un éventail de compétences solides et complémentaires, indispensables à la réalisation de projets web de qualité :
+        </p>
+        <div class="skills">
+            <div class="skill">HTML5 – Structuration sémantique du contenu</div>
+            <div class="skill">CSS3 – Mise en forme moderne et responsive</div>
+            <div class="skill">JavaScript – Interactivité et dynamisme</div>
+            <div class="skill">Responsive Design – Adaptabilité multi-écrans</div>
+            <div class="skill">UX/UI – Conception centrée utilisateur</div>
+            <div class="skill">Git & GitHub – Gestion de version collaborative</div>
+            <div class="skill">Création de sites modernes et personnalisés</div>
+            <div class="skill">Développement d’applications web actuelles</div>
+        </div>
+    </div>
+
+    <div class="clarification">
+        <strong>Petit message personnel :</strong><br><br>
+        Certains de mes amis pensent parfois que je suis un hacker parce que je publie des images liées à cet univers.
+        En réalité, je suis uniquement un développeur web passionné.  
+        Je trouve que l’univers du hacking est graphiquement fascinant, mais je ne fais que du développement.  
+        Le développement web est la base de nombreux domaines, y compris la cybersécurité.  
+        Donc ne vous y trompez pas : je suis un créateur, pas un pirate !
+    </div>
+
+    <div class="section">
+        <h2>Contactez-moi</h2>
+        <p>Envie de collaborer, discuter d’un projet ou simplement échanger ? Je suis à votre écoute !</p>
+
+        <div style="margin-top: 30px;">
+            <a href="https://wa.me/2250170084995" target="_blank" class="contact-button whatsapp">
+                Me contacter sur WhatsApp
+            </a>
+        </div>
+
+        <div style="margin-top: 20px;">
+            <a href="mailto:elchicano798@gmail.com" class="contact-button email">
+                M’envoyer un mail
+            </a>
+        </div>
+    </div>
+
+    <div class="comments">
+        <h3>Laissez-moi un petit mot d'encouragement :</h3>
+        <textarea placeholder="Écrivez votre commentaire ici..."></textarea><br>
+        <button onclick="alert('Merci pour votre commentaire !')">Envoyer</button>
+    </div>
+
+    <footer>
+        &copy; 2025 El chicano - Tous droits réservés
+    </footer>
+
+</body>
+  </html>
+              
